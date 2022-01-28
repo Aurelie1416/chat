@@ -1,0 +1,106 @@
+body main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section .newrestaurant {
+  display: none;
+}
+
+body main section #map {
+  min-height: 600px;
+}
+
+body main section #map, body main section #restaurants {
+  width: 50%;
+}
+
+body main section #restaurants p, body main section #restaurants i {
+  text-align: center;
+}
+
+body main section #image {
+  height: 300px;
+}
+
+body main section #image div {
+  height: 300px !important;
+}
+
+body main section #image canvas {
+  width: 100%;
+  height: 300px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body main section .me {
+  color: red;
+}
+
+body main section .restaurant {
+  color: #009176;
+}
+
+body main section button {
+  text-align: center;
+  border-color: #009176;
+  border-radius: 5px;
+  color: #009176;
+  position: relative;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+  z-index: 1;
+  padding: 10px;
+  background-color: #f9f5eb;
+  border-bottom: 6px solid #005A45;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+body main section button:after {
+  content: '';
+  position: absolute;
+  border-radius: 5px;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #009176;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  z-index: -1;
+}
+
+body main section button:hover {
+  color: #f9f5eb;
+  cursor: pointer !important;
+}
+
+body main section button:hover:after {
+  width: 100%;
+  height: calc(100% - 3px);
+  border: solid #009176 2px;
+}
+
+body main section button:active:after {
+  height: 100%;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+/*# sourceMappingURL=map.css.map */

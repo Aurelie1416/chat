@@ -1,0 +1,52 @@
+    {
+    "cart": [
+        {
+            "id": "1",
+            "title": "Bilbo le Hobbit",
+            "img": "image/hobbit.jpg",
+            "writer": "J.R.R. Tolkien",
+            "quantity": "2",
+            "price": 20
+        },
+        {
+            "id": "2",
+            "title": "Bilbo le Hobbit",
+            "img": "image/hobbit.jpg",
+            "writer": "J.R.R. Tolkien",
+            "quantity": "3",
+            "price": 20
+        },
+        {
+            "id": "3",
+            "title": "Bilbo le Hobbit",
+            "img": "image/hobbit.jpg",
+            "writer": "J.R.R. Tolkien",
+            "quantity": "1",
+            "price": 20
+        },
+        {
+            "id": "3",
+            "title": "Bilbo le Hobbit",
+            "img": "image/hobbit.jpg",
+            "writer": "J.R.R. Tolkien",
+            "quantity": "1",
+            "price": 20
+        },
+        {
+            "id": "3",
+            "title": "Bilbo le Hobbit",
+            "img": "image/hobbit.jpg",
+            "writer": "J.R.R. Tolkien",
+            "quantity": "1",
+            "price": 20
+        },
+        {
+            "id": "3",
+            "title": "Bilbo le Hobbit",
+            "img": "image/hobbit.jpg",
+            "writer": "J.R.R. Tolkien",
+            "quantity": "1",
+            "price": 20
+        }
+    ]
+}

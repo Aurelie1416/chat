@@ -1,0 +1,63 @@
+{
+    "restaurants": [
+        {
+            "id": 1,
+            "restaurantName": "Branco",
+            "adress": "39 rue des petites écuries, 75010 Paris",
+            "lat": 48.8737815,
+            "long": 2.3501649,
+            "racing": [{
+                "stars": 4,
+                "comment": "Un excellent restaurant, j'y reviendrai ! Par contre, il faut aimer la viande" 
+            }]  
+        },
+        {
+            "id": 2,
+            "restaurantName": "Babalou",
+            "adress": "4 rue Lamarck, 75018 Paris ",
+            "lat": 48.8865035,
+            "long": 2.3442197,
+            "racing": [{
+                "stars": 5,
+                "comment": "Une minuscule pizzeria délicieuse, caché juste à côté du Sacrécoeur" 
+            }]  
+        },
+        {
+            "id": 3,
+            "restaurantName": "Vapiano",
+            "adress": "1 avenue Georges Brassens, 31700 Blagnac",
+            "lat": 43.6501175,
+            "long": 1.380645,
+            "racing": [{
+                "stars": 3,
+                "comment": "Un excellent restaurant, j'y reviendrai ! Par contre, il faut aimer italien" 
+            }]  
+        },
+        {
+            "id": 4,
+            "restaurantName": "Les jardins d'Acropolis",
+            "adress": "1 rue d'Athènes, 12000 Rodez",
+            "lat": 44.3589944,
+            "long": 2.5556055,
+            "racing": [{
+                "stars": 4,
+                "comment": "Un excellent restaurant, j'y reviendrai ! Par contre, il faut aimer l'aligot" 
+            },
+            {
+                "stars": 3,
+                "comment": "J'ai aimé, sans plus" 
+            }]
+        },
+        {
+            "id": 5,
+            "restaurantName": "Le cèdre",
+            "adress": "15 boulevard Denys Puech, 12000 Rodez",
+            "lat": 44.3496606,
+            "long": 2.5780303,
+            "racing": [{
+                "stars": 4,
+                "comment": "Un excellent restaurant, j'y reviendrai ! Par contre, il faut aimer les crèpes" 
+            }]  
+        }
+    ]
+}
