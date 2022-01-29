@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import MyCart from './components/MyCart.vue'
+import MyCart from './components/MyCartToOrder.vue'
 
 export default {
   name: 'App',

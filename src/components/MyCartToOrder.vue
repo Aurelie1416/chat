@@ -1,6 +1,5 @@
 <template>
 <div id="my_cart_to_order">
-    <h1>blooooooooooooooooooop</h1>
     <my-cart></my-cart>
 </div>
 </template>
