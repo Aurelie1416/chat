@@ -8,7 +8,7 @@
   export default {
     name: 'my-cart-to-order',
     components: {
-      MyCart
-    }
+      MyCart    
+      }
   }
 </script>

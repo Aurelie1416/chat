@@ -242,51 +242,108 @@
           transition-duration: 1.2s;
 }
 
-#total {
-  width: 100%;
-}
-
-#total div {
-  width: 100%;
-}
-
-#total div div {
+section .book_info .cover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#total div div div {
-  width: 50%;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-#total div div div input {
-  padding: 10px;
+section .book_info .cover img {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
 }
 
-#total div div div input::before {
-  top: -5px;
+section .book_info .cover .menu {
+  width: 100%;
+  margin-top: 20px;
 }
 
-#total div div:last-child {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+section .book_info .cover .menu .menu_info, section .book_info .cover .menu .menu_synopsis {
+  margin: 0 20px 0 0;
+  padding: 0 10px 0 10px;
+  display: inline-block;
 }
 
-#total div div:last-child h3 {
-  padding: 10px;
+section .book_info .cover .menu .menu_synopsis {
+  border-radius: 5px 5px 0 0;
+  border-top: solid #009176 1px;
+  border-left: solid #009176 1px;
+  border-right: solid #009176 1px;
 }
-/*# sourceMappingURL=test.css.map */
+
+section .book_info .cover .menu hr {
+  margin: 0;
+  width: 75vw;
+  color: #009176;
+}
+
+section .book_info .info {
+  display: none;
+}
+
+section .book_info .synopsis {
+  line-height: 2em;
+}
+
+section .book_info .synopsis::first-letter {
+  font-family: 'Fleur De Leah', cursive;
+  font-weight: bold;
+  font-size: xx-large;
+  color: #009176;
+}
+
+section .book_info .price {
+  color: #009176;
+  font-weight: bold;
+}
+
+section .avatar_img {
+  text-align: center;
+  display: block;
+  font-size: 5em;
+  color: #009176;
+}
+
+@media screen and (min-width: 1100px) {
+  section .book_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  section .book_info .info {
+    display: block;
+    width: 50%;
+  }
+  section .book_info .info p {
+    font-size: x-large;
+  }
+  section .book_info .menue_info {
+    display: none;
+  }
+  section .book_info .synopsis {
+    width: 100%;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=file.css.map */
