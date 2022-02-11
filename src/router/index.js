@@ -16,7 +16,7 @@ const routes = [
     component: () => import('../views/About.vue')
   },
   {
-    path: '/book',
+    path: '/book/:bookId',
     name: 'book',
     component: () => import('../views/Book.vue')
   },
@@ -25,11 +25,11 @@ const routes = [
     name: 'cart',
     component: () => import('../views/Cart.vue')
   },
-  // {
-  //   path: '/books',
-  //   name: 'books',
-  //   component: () => import('../views/Books.vue')
-  // },
+  {
+    path: '/books',
+    name: 'books',
+    component: () => import('../views/Books.vue')
+  },
   // {
   //   path: '/about',
   //   name: 'About',

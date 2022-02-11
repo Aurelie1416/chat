@@ -47,34 +47,32 @@
 </template>
 
 <script>
-export default {
-    name:'total-cart',
-    props: {
-      books: Array
-    },
-    data: function choice() {
-        return {
-            shippingChoice: 0,
-            relay: 5,
-            home: 12,
-        }
-    },
-    computed: {
-      totalLines() {
-        let total = 0;
-        this.books.forEach(book => {
-            total += (book.price * book.quantity);
-        });
-        total += this.shippingChoice;
-        return total;
-      }, 
-      totalBooks(){
+export default new Vuex.Store({
+      name:'total-cart',
+      props: {
+        books: Array
+      },
+      state: {
+          shippingChoice: 0,
+          relay: 5,
+          home: 12,
+      },
+      getters: {
+        totalLines() {
           let total = 0;
           this.books.forEach(book => {
               total += (book.price * book.quantity);
           });
+          total += this.shippingChoice;
           return total;
-      }
-    },
-};
+        }, 
+        totalBooks(){
+            let total = 0;
+            this.books.forEach(book => {
+                total += (book.price * book.quantity);
+            });
+            return total;
+        }
+      },
+  });
 </script>

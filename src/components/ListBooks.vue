@@ -1,49 +1,49 @@
 <template>
-    <section>
-        <!-- <h2>Bilbo le Hobbit</h2>
-            <div class="book_info">
-                <div class="cover">
-                    <img :src="book.image" alt="book cover">
-                    <div class="menu">
-                        <h3 class="menu_synopsis">synopsis</h3>
-                        <h3 class="menu_info">Information</h3>
-                        <hr>
-                    </div>
-                </div>
-                <div class="info">
-                    <p class="price">Prix : {{book.price}}&euro;</p>
-                    <p>Auteur : {{book.writer}}</p>
-                    <p>Publié le {{book.publication}}</p>
-                    <p>Edition : {{book.edidion}}</p>
-                    <p>{{book.format}}</p>
-                    <p>Nombre de page : {{book.page}}</p>
-                </div>
-                <p class="synopsis">{{book.summary}}</p>
+<section>
+
+            <div id="list_article">
+                <article  v-for="book in books" :key="book.id">
+                    <router-link :to="{ name: 'book', params:{bookId: book.id}}">
+                        
+                    <a href="#" class="book">
+                        <img :src="book.image" alt="book cover">
+                        <h3>{{book.title}}</h3>
+                        <p>{{book.writer}}</p>
+                        <p>{{book.price}}&euro;</p>
+                    </a>
+                    <button class="button_hover">
+                        <div class="add_cart">
+                            <i class="fas fa-cart-plus"></i>
+                            <p>Ajouter Au panier</p>  
+                        </div> 
+                    </button>
+                    </router-link>
+                </article>
             </div>
-            
-            <button class="button_hover">
-                <i class="fas fa-cart-plus"></i>
-                Ajouter au panier
-            </button> -->
-    </section>
+        </section>
 </template>
 
 <script>
 
-  export default {
-    name: 'list-books'
-    // data: function choice() {
-    //     return {
-    //       book: [],
-    //     }
-    //   },
-    // beforeCreate: function(){
-    //   fetch("json/cart.json")
-    //   .then(response => response.json())
-    //   .then(result => {
-    //         let book_information = { image:result.book[0].img, title:result.book[0].title, writer:result.book[0].writer, price:result.book[0].price, publication:result.book[0].publication_date, edidion:result.book[0].edition, page:result.book[0].page_number, format:result.book[0].format, summary:result.book[0].summary }
-    //         this.book.push(book_information);  
-    //   });
-    // }
-}
+  export default new Vuex.Store({
+        name: 'my-section',
+        state: {
+            books: []
+        },
+        beforeCreate: function(){
+        fetch("json/cart.json")
+            .then(response => response.json())
+            .then(result => {
+                for(let i = 0; i < result.books.length; i++){
+                    let book = { id:result.books[i].id, image:result.books[i].img, title:result.books[i].title, writer:result.books[i].writer, price:result.books[i].price }
+                    this.books.push(book);  
+                }
+            });
+        },
+        method: {
+            changeUrl(idBook){
+                this.$router.push({path:'/book', params:{bookId: idBook}})
+            }
+        }
+    })
 </script>

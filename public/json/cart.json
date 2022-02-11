@@ -1,7 +1,7 @@
     {
     "cart": [
         {
-            "id": "1",
+            "id": 1,
             "title": "Bilbo le Hobbit 1",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -14,7 +14,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "2",
+            "id": 2,
             "title": "Bilbo le Hobbit 2",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -27,7 +27,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "3",
+            "id": 3,
             "title": "Bilbo le Hobbit 3",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -41,7 +41,7 @@
 
         },
         {
-            "id": "4",
+            "id": 4,
             "title": "Bilbo le Hobbit 4",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -55,7 +55,7 @@
 
         },
         {
-            "id": "5",
+            "id": 5,
             "title": "Bilbo le Hobbit 5",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -68,7 +68,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "6",
+            "id": 6,
             "title": "Bilbo le Hobbit 6",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -81,9 +81,9 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         }
     ],
-    "products": [
+    "books": [
         {
-            "id": "1",
+            "id": 1,
             "title": "Bilbo le Hobbit 1",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -96,7 +96,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "2",
+            "id": 2,
             "title": "Bilbo le Hobbit 2",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -109,7 +109,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "3",
+            "id": 3,
             "title": "Bilbo le Hobbit 3",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -122,7 +122,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "4",
+            "id": 4,
             "title": "Bilbo le Hobbit 4",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -135,7 +135,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "5",
+            "id": 5,
             "title": "Bilbo le Hobbit 5",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -148,7 +148,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "6",
+            "id": 6,
             "title": "Bilbo le Hobbit 6",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -161,7 +161,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "7",
+            "id": 7,
             "title": "Bilbo le Hobbit 7",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -174,7 +174,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "8",
+            "id": 8,
             "title": "Bilbo le Hobbit 8",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -187,7 +187,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "9",
+            "id": 9,
             "title": "Bilbo le Hobbit 9",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -200,7 +200,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "10",
+            "id": 10,
             "title": "Bilbo le Hobbit 10",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -213,7 +213,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "11",
+            "id": 11,
             "title": "Bilbo le Hobbit 11",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",
@@ -226,7 +226,7 @@
             "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, turpis sit amet sodales mattis, nibh ipsum efficitur lorem, vitae egestas mauris dui et velit. Curabitur facilisis hendrerit orci, vel dapibus eros. Donec dapibus ante egestas nibh porta, non tempor justo imperdiet. Cras vel ligula ut felis vehicula pretium. Nunc ornare finibus pulvinar. Sed vitae orci ut ante hendrerit sodales. Donec non risus eu dolor mattis laoreet. Phasellus condimentum orci dui, pulvinar auctor arcu interdum sed. Nunc arcu mi, tristique nec tristique ut, suscipit non turpis. Vivamus pulvinar erat in lectus hendrerit, eu tristique lectus aliquam. Nunc aliquam sem turpis, ut pulvinar eros ullamcorper a. Donec pretium finibus ornare. Mauris et luctus mi, a interdum sapien. Nulla ac posuere ipsum. "
         },
         {
-            "id": "12",
+            "id": 12,
             "title": "Bilbo le Hobbit 12",
             "img": "image/hobbit.jpg",
             "writer": "J.R.R. Tolkien",

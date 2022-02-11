@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section v-if="book != null">
         <h2>Bilbo le Hobbit</h2>
             <div class="book_info">
                 <div class="cover">
@@ -30,20 +30,17 @@
 
 <script>
   
-  export default {
-    name: 'my-book',
-    data: function() {
-        return {
-          book: [],
+  export default new Vuex.Store({
+        name: 'my-book',
+        state: {
+            book: null,
+        },
+        beforeCreate: function(){
+        fetch("json/cart.json")
+        .then(response => response.json())
+        .then(result => {
+            this.book = {image:result.books[0].img, title:result.books[0].title, writer:result.books[0].writer, price:result.books[0].price, publication:result.books[0].publication_date, edidion:result.books[0].edition, page:result.books[0].page_number, format:result.books[0].format, summary:result.books[0].summary };
+        });
         }
-      },
-    beforeCreate: function(){
-      fetch("json/cart.json")
-      .then(response => response.json())
-      .then(result => {
-            let book_information = { image:result.book[0].img, title:result.book[0].title, writer:result.book[0].writer, price:result.book[0].price, publication:result.book[0].publication_date, edidion:result.book[0].edition, page:result.book[0].page_number, format:result.book[0].format, summary:result.book[0].summary }
-            this.book.push(book_information);  
-      });
-    }
-}
+    })
 </script>
